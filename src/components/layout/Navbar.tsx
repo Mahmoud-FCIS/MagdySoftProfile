@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { useThemeStore } from '@/store/themeStore';
 import { Moon, Sun, Menu, X } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
+import logo from '@/pages/logo.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +24,8 @@ const Navbar = () => {
     <nav className="fixed top-0 w-full z-50 glass border-b">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link to="/" className="font-space font-bold text-xl gradient-text">
+          <Link to="/" className="flex items-center font-space font-bold text-xl text-dark-green">
+            <img src={logo} alt="Logo" className="h-8 w-auto mr-2" />
             MAGDYSOFT
           </Link>
 

@@ -51,20 +51,32 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'hello@yourportfolio.com',
-      href: 'mailto:hello@yourportfolio.com'
+      value: 'mahmoud.magdy0000@hotmail.com',
+      href: 'mahmoud.magdy0000@hotmail.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567'
+      value: '+02 01008893867',
+      href: 'tel:+0201008893867'
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Cairo, Egypt',
       href: null
+    },
+    {
+      icon: Mail,
+      label: 'WhatsApp',
+      value: '+02 01008893867',
+      href: 'https://wa.me/+0201008893867'
+    },
+    {
+      icon: Phone,
+      label: 'Telegram',
+      value: '@Mahmoud Magdy',
+      href: 'https://t.me/Mahmoud Magdy'
     }
   ];
 
@@ -82,7 +94,7 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      href: 'mailto:hello@yourportfolio.com'
+      href: 'mailto:mahmoud.magdy0000@hotmail.com'
     }
   ];
 
