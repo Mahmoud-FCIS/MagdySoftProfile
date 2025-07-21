@@ -24,17 +24,17 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background text-dark-green">
       <Navbar />
       
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-portfolio-500/20 via-purple-500/20 to-pink-500/20 animate-gradient"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-green-900/20 via-yellow-20/20 to-gold-50/20 animate-gradient"></div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="animate-fade-in">
             {/* Profile Picture */}
             <div className="flex justify-center mb-8">
-              <Avatar className="w-32 h-32 border-4 border-primary/20 shadow-lg animate-scale-in">
+              <Avatar className="w-64 h-64 border-4 border-primary/20 shadow-lg animate-scale-in">
                 <AvatarImage 
                   src={logo}
                   alt="Profile" 
